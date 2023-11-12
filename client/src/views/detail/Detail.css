@@ -1,0 +1,119 @@
+.details {
+  margin: 1.5rem;
+  margin-top: 5rem;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.extra-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.curiosity span {
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.options .btnDelete,
+.options .btnUpdate {
+  padding: 0.4rem 0.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.btnDelete {
+  margin-right: 2rem;
+  background-color: #cc5d3b;
+  color: white;
+  transition: 0.4s ease-in;
+}
+
+.btnUpdate {
+  background-color: #77a3b1;
+  color: white;
+  transition: 0.4s ease-in;
+}
+
+.btnDelete:hover,
+.btnUpdate:hover {
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.25),
+    0 0.2rem 0.4rem rgba(0, 0, 0, 0.25);
+  transition: 0.4s ease-out;
+}
+
+.text-shiny {
+  margin-top: 1rem;
+  padding: 1rem;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.curiosity span > b {
+  text-decoration: underline wavy #f49d58;
+}
+
+.detailCard {
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.caracteristics h2 {
+  text-transform: capitalize;
+}
+
+.typesDetail {
+  margin-top: 0.7rem;
+}
+.type:first-child {
+  margin-right: 1rem;
+}
+.typesDetail span {
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.stats-detail {
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+  gap: 0.8rem;
+  margin-top: 5rem;
+  margin-right: 0.5rem;
+}
+
+.stat-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 16px 37px 5px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.stat-info span:first-child {
+  margin-bottom: 0.7rem;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.img img:hover {
+  transform: scale(1.3);
+  transition: 0.5s ease-in-out;
+}
+
+.idDetail {
+    color: #798b90;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}

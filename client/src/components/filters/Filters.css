@@ -1,0 +1,72 @@
+.filterSorting {
+    margin: 0.5rem 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 10fr 10fr 1fr;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.content-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.filter h3,
+.order h3 {
+    text-align: center;
+    color: #3775a1;
+    margin-bottom: 0.5rem;
+}
+
+.filter_type,
+.filter_origin,
+.order_alfabetico,
+.order_ataque {
+    display: flex;
+}
+
+.filter_type select,
+.filter_origin select,
+.order_alfabetico select,
+.order_ataque select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    border: 0;
+    margin-left: 0.3rem;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.filter_type select option,
+.filter_origin select option,
+.order_alfabetico select option,
+.order_ataque select option {
+    color: inherit;
+    background-color: #f9f2f8;
+}
+
+.filter_type select:focus,
+.filter_origin select:focus,
+.order_alfabetico select:focus,
+.order_ataque select:focus {
+    outline: none;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 0.2rem;
+}
+
+.reset img {
+    width: 20px;
+    cursor: pointer;
+}

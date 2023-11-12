@@ -1,0 +1,11 @@
+.error404 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    font-size: 8rem;
+    letter-spacing: 8px;
+    text-shadow: 3px 3px 7px #f2ab27d9, 3px 3px 7px #f2ab27d9;
+    font-family: "Pokemon Solid", sans-serif;
+}
